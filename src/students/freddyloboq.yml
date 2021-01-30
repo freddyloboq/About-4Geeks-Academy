@@ -1,0 +1,166 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Freddy 
+    last_name: Lobo
+    
+    # Define yourself in 4-5 words
+    motto: Continue without anyone stopping you
+    
+    # focus
+    focus: FrontEnd Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career. LATER
+    summary: |
+      I have 9 years of experience in the graphic design area. Due to the pandemic I had the opportunity to study web development and it was a great experience. That is why I take this new career as my main path.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/66028451?s=460&u=d10e01ae9a46ca3091ece312fab4300704fd3dc2&v=4
+
+    # Contact Information
+    email: freddyloboq@gmail.com@gmail.com #optional
+    phone: +56 9 5641 0477 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/freddyloboq/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/freddyloboq
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Movies
+
+      - item: Arts
+
+      - item: Video Games
+
+      - item: programming
+
+# Your previous education
+education:
+    - degree: FullStack Development
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2020
+      details: |
+        Studying programming at the academy was a very exciting experience. It had its ups and downs but in the end it was very rewarding. Not only to be able to complete the academy but to overcome those blockages in development and to see what we have achieved in such a short time.
+
+    - degree: Licensed in graphic design
+      university: university José María Vargas
+      # optional
+      university_logo: 
+      time: 2003 - 2009
+      details: |
+        My experience in college as a graphic designer was rewarding. Know and learn everything regarding design. Theory of color, figure and background, etc. It leads you to know and to be able to graphically communicate specific feelings or messages to be able to evoke some feeling to the targeted targuet.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Graphic Designer
+      time: 2018 - 2020
+      company: Imprenta Cid
+      # optional
+      company_logo: 
+      details: |
+        My role as a graphic designer in the printing house was to create and design advertising elements for clients who requested it. Also review and modify the arts that they brought and adjust it for the final impression. Both in laser printing and gigantography.
+
+    - role: Graphic Designer
+      time: 2016 - 2018
+      company: Vortex C.A.
+      # optional
+      company_logo: 
+      details: |
+        I was in charge of creating both various graphic elements. Both for the corporate image and the dissemination of the different products they have and preparation for the communications they impart.
+
+    - role: Graphic Designer
+      time: 2015 - 2016
+      company: Rialfi Consulting C.A.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I was in charge of creating both various graphic elements. Both for the corporate image and the dissemination of the different products they have and preparation for the communications they impart.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: ClickToGreen
+        # optional
+        project_logo: 
+        link: "https://github.com/alejojimenez/Projetc-Click-to-green"
+        tagline: "We offer a solution to recycling companies to better manage the containers located on the streets."
+
+      - title: StarWars
+        # optional
+        project_logo:
+        link: "https://github.com/freddyloboq/star-wars"
+        tagline: "A small page where I interact with the starwars API."
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 98%
+
+      - name: CSS
+        level: 77%
+
+      - name: Bootstrap
+        level: 88%
+
+      - name: SASS
+        level: 80%
+
+      - name: Javascript
+        level: 77%
+
+      - name: REACT
+        level: 85%
+
+      - name: GIT/Github
+        level: 90%
+
+      - name: Python
+        level: 80%
+
+      - name: Flask
+        level: 80%
+
+      - name: MYSQL
+        level: 80%
+
+      - name: AdobeXD
+        level: 90%
+
+      - name: Figma
+        level: 80%
+
+      - name: Photoshop
+        level: 90%
+
+      - name: Illustrator
+        level: 97%
